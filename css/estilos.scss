@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+// font-family: khula-light font-family: "Khula", sans-serif;
+// font-family: font-family: "Bellota Text", sans-serif;
+
+//variables Globales
+//operadores - inicio
+$ancho: 720px;
+$alto: 100px;
+//fonts
+$font1: "Khula", sans-serif;
+$font2: "Bellota Text", sans-serif;
+// paleta colores
+$color1: #4A2040;
+$color2:#9F6BA0;
+$color3: #C880B7;
+$color4:#EC9DED;
+$color5:#F5CCE8;
+$color6: white;
+$color7:#222021;
+//dimensiones
+$size1: 100%;
+$size2: 50%;
+$size3: 20px;
+$size4: 50px;
+$size5: 500px;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.p{
+    font-family: $font2;
+}
+
+.navbar{
+    background-color: $color1;
+    font-family: $font1;
+    color: $color6 !important;
+        a{
+        color: $color6 !important;
+    }
+}
+
+.nav-link:hover{
+    color: $color3 !important;
+}
+
+.sec1{
+    background-image: url(../multimedia/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: calc($alto*4);
+    p{
+        font-family: $font2;
+        font-size: calc($size3);
+        color: $color6;
+    }
+}
+
+.sec1{
+    h1{
+        font-family: $font1;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: $color6;
+        font-size: calc($size3*1.6);
+        }
+    }
+
+.cuadrado{
+        height: calc($size4);
+        width: calc($size4*4);
+        background-color: $color1;
+        border: 2px solid $color3;
+        list-style: none;
+        text-decoration: none;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        transition: 0.7s;
+        border-radius: $size4;
+        a{
+            text-decoration: none;
+            color: $color6;
+            font-size: $size3;
+            font-family: $font2;
+        }
+    }
+
+.cuadrado:hover{
+        transform: scale(0.9);
+        background-color: $color3;
+        border: 2px solid $color1;
+        color: $color6;
+        border-radius: $size3}
+
+.sec2{
+    padding-top: $size3;
+    padding-bottom: $size4;
+    h3{
+        font-family: $font1;
+        color: $color7;
+    }
+}
+
+.sec2{
+    p{
+        font-family: $font2;
+        color: $color7;
+    }
+}
+
+.sec3{
+    background-color: $color5;
+    width: 100%;
+    padding-top: $size3;
+    padding-bottom: $size3;
+    h3{
+        padding-top: $size3;
+        font-family: $font1;
+        font-size: $size4;
+        color: $color7;
+    .text{
+        padding-top: $size3;
+        p{
+            font-family: $font2;
+            color: $color7;
+        }
+        }
+    }
+}
+
+.sec4{
+    padding-top: $size3;
+    padding-bottom: $size3;
+    h3{
+        font-family: $font1;
+        padding-top: $size3;
+        text-align: center;
+        font-size: calc($size3*1.5);
+        color: $color7;
+    }
+}
+
+.sec4{
+    p{
+        font-family: $font2;
+        text-align: center;
+        color: $color7;  
+    }
+}
+
+.sec5{
+    background-color: $color5;
+    width: 100%;
+    padding-top: $size3;
+    padding-bottom: $size3;
+    .text{
+        padding-top: $size3;
+        padding-bottom: $size3;
+        margin-left: $size3;
+        color: $color7;
+    }
+}
+
+/*
+.jumbotron{
+    background-image: url(../multimedia/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $color2;
+    height: calc($alto*4);
+}
+
+//** index **/
+
+/*
+.container{
+    background-color: $color2;
+    h1{text-shadow: 0 0 2px;
+        font-family: $font1;
+        color:$color3
+    }
+}
+
+.sec{
+    text-transform: uppercase;
+    background-color: $color1;
+    text-align: center;
+        h2{color: $color4;
+            padding: $size3;
+    }
+}
+
+.index{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.texto{
+    margin-top: $size4;
+    margin-bottom: $size4;
+}
+
+.espacios{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.indexproducto{
+    border-radius: $size3;
+    transition: 0.7s;
+        :hover{
+        transform: scale(0.9);
+        transition: 0.7s;
+        border-radius: $size4;}
+}
+
+//** Pag-Nosotros e index **/
+/*
+.equipo{
+    padding-top: $size3;
+    padding-bottom: $size3;
+    h3{text-align: center;
+    }
+}
+
+//** Pag-Nosotros **/
+/*
+.nosotros{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+//** Pag-Productos **/
+/*
+.productos{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.galeria{
+    color: $color3;
+    text-align: center;
+}
+
+.productogaleria{
+    border-radius: $size3;
+    transition: 0.7s;
+        :hover{
+        transform: scale(0.9);
+        transition: 0.7s;
+        border-radius: $size4;}
+}
+
+//** Pag-Locales **/
+/*
+.locales{
+    padding-top: $size3;
+    padding-bottom: $size3;
+    color: $color3;
+}
+
+.table{
+    color: $color3;
+}
+
+    //** Pag-Contacto **/
+    /*
+
+.servicios{
+    h2{padding-bottom: $size3;
+        text-align: center;
+    }
+}
+    
+.contacto{
+    padding-top: $size3;
+    padding-bottom: $size3;}
+
+.btn{
+            background-color: $color1;
+            border-color: $color2;}
+
+.btn:hover{
+        background-color:$color3;
+        border-color: $color1;
+        color:$color4
+        }
+
+//** Cierre página **/
+footer{
+    background-color: $color1;
+    color: $color6;
+    text-align: center;
+    padding: $size3;
+    .redes a{
+    letter-spacing: 20 px;
+    //** 20px**//
+    font-size: $size3;
+    text-decoration: none;
+    color: $color6;
+        :hover{
+            color: $color5;
+        }
+    }
+}
+
+.subir{
+    width: calc($size4 - 10px);
+    height: calc($size4 - 10px);
+    background-color: $color1;
+    text-decoration: none;
+    color: $color6;
+    position: fixed;
+    bottom: calc($size4 - 10px);
+    right: calc($size4 - 10px);
+    text-align: center;
+    line-height: calc($size4 - 10px);
+    font-size: $size3;
+        :hover{
+        color: $color5;
+        }
+}

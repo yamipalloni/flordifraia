@@ -1,0 +1,300 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.p {
+  font-family: "Bellota Text", sans-serif;
+}
+
+.navbar {
+  background-color: #4A2040;
+  font-family: "Khula", sans-serif;
+  color: white !important;
+}
+.navbar a {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #C880B7 !important;
+}
+
+.sec1 {
+  background-image: url(../multimedia/portada.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.sec1 p {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.sec1 h1 {
+  font-family: "Khula", sans-serif;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  color: white;
+  font-size: 32px;
+}
+
+.cuadrado {
+  height: 50px;
+  width: 200px;
+  background-color: #4A2040;
+  border: 2px solid #C880B7;
+  list-style: none;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+.cuadrado a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Bellota Text", sans-serif;
+}
+
+.cuadrado:hover {
+  transform: scale(0.9);
+  background-color: #C880B7;
+  border: 2px solid #4A2040;
+  color: white;
+  border-radius: 20px;
+}
+
+.sec2 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.sec2 h3 {
+  font-family: "Khula", sans-serif;
+  color: #222021;
+}
+
+.sec2 p {
+  font-family: "Bellota Text", sans-serif;
+  color: #222021;
+}
+
+.sec3 {
+  background-color: #F5CCE8;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sec3 h3 {
+  padding-top: 20px;
+  font-family: "Khula", sans-serif;
+  font-size: 50px;
+  color: #222021;
+}
+.sec3 h3 .text {
+  padding-top: 20px;
+}
+.sec3 h3 .text p {
+  font-family: "Bellota Text", sans-serif;
+  color: #222021;
+}
+
+.sec4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sec4 h3 {
+  font-family: "Khula", sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #222021;
+}
+
+.sec4 p {
+  font-family: "Bellota Text", sans-serif;
+  text-align: center;
+  color: #222021;
+}
+
+.sec5 {
+  background-color: #F5CCE8;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sec5 .text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  color: #222021;
+}
+
+/*
+.jumbotron{
+    background-image: url(../multimedia/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $color2;
+    height: calc($alto*4);
+}
+
+//** index **/
+/*
+.container{
+    background-color: $color2;
+    h1{text-shadow: 0 0 2px;
+        font-family: $font1;
+        color:$color3
+    }
+}
+
+.sec{
+    text-transform: uppercase;
+    background-color: $color1;
+    text-align: center;
+        h2{color: $color4;
+            padding: $size3;
+    }
+}
+
+.index{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.texto{
+    margin-top: $size4;
+    margin-bottom: $size4;
+}
+
+.espacios{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.indexproducto{
+    border-radius: $size3;
+    transition: 0.7s;
+        :hover{
+        transform: scale(0.9);
+        transition: 0.7s;
+        border-radius: $size4;}
+}
+
+//** Pag-Nosotros e index **/
+/*
+.equipo{
+    padding-top: $size3;
+    padding-bottom: $size3;
+    h3{text-align: center;
+    }
+}
+
+//** Pag-Nosotros **/
+/*
+.nosotros{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+//** Pag-Productos **/
+/*
+.productos{
+    padding-top: $size3;
+    padding-bottom: $size3;
+}
+
+.galeria{
+    color: $color3;
+    text-align: center;
+}
+
+.productogaleria{
+    border-radius: $size3;
+    transition: 0.7s;
+        :hover{
+        transform: scale(0.9);
+        transition: 0.7s;
+        border-radius: $size4;}
+}
+
+//** Pag-Locales **/
+/*
+.locales{
+    padding-top: $size3;
+    padding-bottom: $size3;
+    color: $color3;
+}
+
+.table{
+    color: $color3;
+}
+
+    //** Pag-Contacto **/
+/*
+
+.servicios{
+    h2{padding-bottom: $size3;
+        text-align: center;
+    }
+}
+
+.contacto{
+    padding-top: $size3;
+    padding-bottom: $size3;}
+
+.btn{
+            background-color: $color1;
+            border-color: $color2;}
+
+.btn:hover{
+        background-color:$color3;
+        border-color: $color1;
+        color:$color4
+        }
+
+//** Cierre página **/
+footer {
+  background-color: #4A2040;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer .redes a {
+  letter-spacing: 20 px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+footer .redes a :hover {
+  color: #F5CCE8;
+}
+
+.subir {
+  width: 40px;
+  height: 40px;
+  background-color: #4A2040;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.subir :hover {
+  color: #F5CCE8;
+}/*# sourceMappingURL=estilos.css.map */
