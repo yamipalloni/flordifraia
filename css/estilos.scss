@@ -48,7 +48,6 @@ html{
         color: $color6 !important;
     }
 }
-
 .nav-link:hover{
     color: $color3 !important;
 }
@@ -74,6 +73,14 @@ html{
         font-size: calc($size3*1.6);
         }
     }
+
+.sec1{
+        h2{
+            font-family: $font1;
+            color: $color6;
+            font-size: $size3;
+            }
+        }
 
 .cuadrado{
         height: calc($size4);
@@ -113,6 +120,16 @@ html{
 }
 
 .sec2{
+    h2{
+        font-family: $font1;
+        color: $color7;
+        text-align: center;
+        padding-bottom: $size4;
+        font-size: calc($size4 - 5px);
+    }
+}
+
+.sec2{
     p{
         font-family: $font2;
         color: $color7;
@@ -139,6 +156,15 @@ html{
     }
 }
 
+.sec3{
+    h4{
+        padding-top: $size3;
+        font-family: $font1;
+        font-size: calc($size4 - 20px);
+        color: $color7;
+    }
+}
+
 .sec4{
     padding-top: $size3;
     padding-bottom: $size3;
@@ -161,141 +187,152 @@ html{
 
 .sec5{
     background-color: $color5;
-    width: 100%;
-    padding-top: $size3;
-    padding-bottom: $size3;
-    .text{
-        padding-top: $size3;
-        padding-bottom: $size3;
-        margin-left: $size3;
-        color: $color7;
-    }
-}
-
-/*
-.jumbotron{
-    background-image: url(../multimedia/portada.jpg);
-    background-size: cover;
-    background-position: center;
-    color: $color2;
-    height: calc($alto*4);
-}
-
-//** index **/
-
-/*
-.container{
-    background-color: $color2;
-    h1{text-shadow: 0 0 2px;
-        font-family: $font1;
-        color:$color3
-    }
-}
-
-.sec{
-    text-transform: uppercase;
-    background-color: $color1;
-    text-align: center;
-        h2{color: $color4;
-            padding: $size3;
-    }
-}
-
-.index{
-    padding-top: $size3;
-    padding-bottom: $size3;
-}
-
-.texto{
-    margin-top: $size4;
-    margin-bottom: $size4;
-}
-
-.espacios{
-    padding-top: $size3;
-    padding-bottom: $size3;
-}
-
-.indexproducto{
-    border-radius: $size3;
-    transition: 0.7s;
-        :hover{
-        transform: scale(0.9);
-        transition: 0.7s;
-        border-radius: $size4;}
-}
-
-//** Pag-Nosotros e index **/
-/*
-.equipo{
-    padding-top: $size3;
-    padding-bottom: $size3;
-    h3{text-align: center;
-    }
-}
-
-//** Pag-Nosotros **/
-/*
-.nosotros{
-    padding-top: $size3;
-    padding-bottom: $size3;
-}
-
-//** Pag-Productos **/
-/*
-.productos{
-    padding-top: $size3;
-    padding-bottom: $size3;
-}
-
-.galeria{
-    color: $color3;
-    text-align: center;
-}
-
-.productogaleria{
-    border-radius: $size3;
-    transition: 0.7s;
-        :hover{
-        transform: scale(0.9);
-        transition: 0.7s;
-        border-radius: $size4;}
-}
-
-//** Pag-Locales **/
-/*
-.locales{
-    padding-top: $size3;
-    padding-bottom: $size3;
-    color: $color3;
-}
-
-.table{
-    color: $color3;
-}
-
-    //** Pag-Contacto **/
-    /*
-
-.servicios{
-    h2{padding-bottom: $size3;
-        text-align: center;
-    }
-}
-    
-.contacto{
-    padding-top: $size3;
-    padding-bottom: $size3;}
-
-.btn{
-            background-color: $color1;
-            border-color: $color2;}
-
-.btn:hover{
-        background-color:$color3;
-        border-color: $color1;
-        color:$color4
+    .tipos{
+        h3{
+            font-family: $font1;
+            padding: $size4;
+            text-align: center;
+            font-size: calc($size3*1.5);
+            color: $color7;
         }
+    }
+}
+.sec5{
+    p{
+        font-family: $font2;
+        text-align: center;
+        padding-top: $size4;
+    }
+    
+}
+
+.sec5{
+    .card{
+        border-color: $color1;
+    }
+}
+
+.sec5{
+    .card-header{
+        background-color: $color5;
+        text-align: center;
+        .btn{
+            background-color: $color1;
+            color: $color6;
+            border-color: $color3;
+            transition: 0.7s;
+            border-radius: $size4;
+        }
+    }
+}
+
+.sec5{
+        .btn:hover{
+            background-color: $color3;
+            color: $color6;
+            border-color: $color1;
+            transform: scale(0.9);
+            border-radius: $size3;
+        }
+    }
+
+
+.sec5{
+        .card-body{
+            background-color: $color5;
+            text-align: center;
+        }
+}
+
+.sec5{
+    .CTA{
+        padding-bottom: $size4;
+    }
+}
+
+.sec1sobremi{
+    background-color: $color6;
+    padding: $size4;
+    h2{
+        font-family: $font1;
+    }
+}
+
+.sec1sobremi{
+    p{
+        font-family: $font2;
+    }
+}
+
+.sec2sobremi{
+    background-color: $color5;
+    .img{
+        height: $size5;
+        padding: $size4;
+        }
+    }
+
+.sec2sobremi{
+        h4{
+            font-family: $font1;
+            text-align: center;
+            color: $color1;
+            padding-bottom: $size4;
+            }
+        }
+
+.sec1servicios{
+    h2{
+    padding: $size3;
+    text-align: center;
+    font-family: $font1;
+}
+}   
+
+.cuadrado2{
+    height: calc($size4*1.5);
+    width: calc($size4*4);
+    background-color: $color1;
+    border: 2px solid $color3;
+    list-style: none;
+    text-decoration: none;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    transition: 0.7s;
+    border-radius: $size4;
+    color: $color6;
+    a{
+        text-decoration: none;
+        font-size: $size3;
+        font-family: $font2;
+    }
+}
+
+.cuadrado2:hover{
+    transform: scale(0.9);
+    background-color: $color3;
+    border: 2px solid $color1;
+    color: $color6;
+    border-radius: $size3}
+
+.sec2servicios{
+    text-align: center;
+    font-family: $font1;
+    .redes2 a{
+        letter-spacing: 20px;
+        //** 20px**//
+        font-size: $size4;
+        text-decoration: none;
+        text-align: center;
+        color: $color1;
+            :hover{
+                color: $color5;
+            }
+    }
+    } 
+
 
 //** Cierre página **/
 footer{
@@ -304,7 +341,7 @@ footer{
     text-align: center;
     padding: $size3;
     .redes a{
-    letter-spacing: 20 px;
+    letter-spacing: 20px;
     //** 20px**//
     font-size: $size3;
     text-decoration: none;
@@ -312,6 +349,14 @@ footer{
         :hover{
             color: $color5;
         }
+    }
+}
+
+.cierre{
+    text-align:center;
+    padding: $size4;
+    .h8{
+        font-size: calc($size3 - 10px);
     }
 }
 
