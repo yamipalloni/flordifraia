@@ -52,8 +52,20 @@ html{
     color: $color3 !important;
 }
 
+.nav-list{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-item{
+    padding: calc($size3 - 10px);
+    margin: 0 auto;
+}
+
 .sec1{
-    background-image: url(../multimedia/portada3.jpg);
+    background: linear-gradient(180deg, rgba(198, 197, 197, 0.543) 0%, rgba(0, 0, 0, 0.506) 100%), url(../multimedia/portada1.jpg);
+    //*background-image: url(../multimedia/portada3.jpg);
     background-size: cover;
     background-position: center;
     height: calc($alto*4);
