@@ -27,7 +27,7 @@ html {
 }
 
 .sec1 {
-  background-image: url(../multimedia/portada.jpg);
+  background-image: url(../multimedia/portada3.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -35,21 +35,24 @@ html {
 .sec1 p {
   font-family: "Bellota Text", sans-serif;
   font-size: 20px;
-  color: white;
+  color: #222021;
+  text-shadow: 0 0 1px;
 }
 
 .sec1 h1 {
   font-family: "Khula", sans-serif;
   text-transform: capitalize;
   text-transform: uppercase;
-  color: white;
+  color: #222021;
   font-size: 32px;
+  text-shadow: 0 0 1px;
 }
 
 .sec1 h2 {
   font-family: "Khula", sans-serif;
-  color: white;
+  color: #222021;
   font-size: 20px;
+  text-shadow: 0 0 1px;
 }
 
 .cuadrado {
