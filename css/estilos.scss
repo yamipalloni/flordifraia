@@ -347,6 +347,30 @@ html{
             }
     }
     } 
+.carrousel-descrip{
+    text-align: center;
+    h4{
+        font-family: $font1;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: $size3;
+    }
+}
+
+.carrousel-descrip{
+    text-align: center;
+    h5{
+        font-family: $font2;
+        font-size: calc($size3 - 5px);
+        margin-bottom: $size3;
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: $color2;
+  border-radius: 50%; /* Esto es opcional, para hacer que los iconos sean redondos */
+}
 
 
 //** Cierre página **/
